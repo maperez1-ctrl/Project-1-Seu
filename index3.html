@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(212, 45%, 89%);
+            font-family: "Outfit", sans-serif;
+        }
+
+        .container {
+            width: 320px;
+            padding: 16px;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: hsl(218, 44%, 22%);
+            margin: 24px 0 16px;
+        }
+
+        .container p {
+            font-size: 15px;
+            font-weight: 400;
+            color: hsl(216, 15%, 48%);
+            margin: 0 0 24px;
+        }
+
+    
+
+        
+        
+
+        .dark {
+            background-color: #222;
+            color: white;
+        }
+
+        button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 10px 16px;
+            cursor: pointer;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    
+    <button onclick="changeTheme()">Change Theme</button>
+
+    <main class="container">
+        <img src="images/image-qr-code.png" alt="QR code linking to Frontend Mentor">
+
+        <h1>Improve your front-end skills by building projects</h1>
+
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+    </main>
+    
+    <script>
+    function changeTheme() {
+        document.body.classList.toggle("dark");
+    }
+    </script>
+
+</body>
+</html>
