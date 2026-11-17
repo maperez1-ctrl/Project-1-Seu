@@ -2,7 +2,7 @@ Project name - QR code assigment
 
 Challange link - https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
 
-
+Live link - https://maperez1-ctrl.github.io/Project-1-Seu/
 
 The extension I made is a simple button that changes the background into a dark mood.
 
